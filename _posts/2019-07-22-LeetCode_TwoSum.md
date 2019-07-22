@@ -1,10 +1,20 @@
 ﻿# TwoSum
-
-标签（空格分隔）： leetcode 算法
+---
+layout:     post
+title:      TwoSum
+subtitle:   leetcode:tow sum�)
+date:       2017-02-06
+author:     BY
+header-img: img/post-bg-re-vs-ng2.jpg
+catalog: true
+tags:
+    - leetcode 算法
 
 ---
-
-#1、最初模式
+> 正所谓前人栽树，后人乘凉。
+> 感谢[Huxpro](https://github.com/huxpro)提供的博客模板
+---
+# 1、最初模式
 2次for循环，其时间复杂度为`O(2n)`,采用`map`存放`target`于`nums[i]`的差及`i`,也就是`iMap[target-nums[i]] = i`，发现这样空间消耗过高，遂有了下文的优化。
 ```
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -25,7 +35,7 @@
 		return iVec;
     }
 ```
-#2、第一次优化
+# 2、第一次优化
 1次for循环，其时间复杂度为`O(n)`。
 ```
     map<int, int>iMap;
@@ -41,7 +51,7 @@
 		}
 		return iVec;
 ```
-#3、参考其他人解法1
+# 3、参考其他人解法1
 1次for循环，其时间复杂度为`O(n)`。采用`map`的`count`方法来判断是否包含`target - nums[i]`，但是发现其效率没有`find`高。
 ```
 	 vector<int> twoSum(vector<int>& nums, int target) {
@@ -60,7 +70,7 @@
 		return iVec;
 	}
 ```	
-#4、最终解法
+# 4、最终解法
 1次for循环，其时间复杂度为`O(n)`。采用`map`的`find`方法来判断是否包含`target - nums[i]`。
 ```	
     vector<int> twoSum(vector<int>& nums, int target) {
