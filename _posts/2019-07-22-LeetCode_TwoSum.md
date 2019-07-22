@@ -1,19 +1,19 @@
-﻿# TwoSum
----
+﻿---
 layout:     post
 title:      TwoSum
-subtitle:   leetcode:tow sum�)
-date:       2017-02-06
+subtitle:   leetcode:tow sum
+date:       2019-07-22
 author:     BY
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
     - leetcode 算法
-
 ---
 > 正所谓前人栽树，后人乘凉。
+>
 > 感谢[Huxpro](https://github.com/huxpro)提供的博客模板
----
+>
+
 # 1、最初模式
 2次for循环，其时间复杂度为`O(2n)`,采用`map`存放`target`于`nums[i]`的差及`i`,也就是`iMap[target-nums[i]] = i`，发现这样空间消耗过高，遂有了下文的优化。
 ```
