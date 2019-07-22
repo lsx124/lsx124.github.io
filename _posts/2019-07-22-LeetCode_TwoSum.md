@@ -1,13 +1,14 @@
 ﻿---
 layout:     post
 title:      TwoSum
-subtitle:   leetcode:tow sum
+subtitle:   leetcode:TwoSum
 date:       2019-07-22
 author:     BY
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
-    - leetcode 算法
+    - leetcode
+	- 算法
 ---
 > 正所谓前人栽树，后人乘凉。
 >
