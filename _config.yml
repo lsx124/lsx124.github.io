@@ -1,10 +1,10 @@
 # Site settings
-title: 灯火微末blog
+title: 五步十阁
 SEOTitle: 灯火微末的博客 | BY Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-map.jpg
 email: lsx124@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 灯火微末的博客, lsx124, 灯火微末, iOS, Apple, iPhone"
+keyword: "灯火微末, 五步十阁, lsx124"
 url: "http://lsx124.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/lsx124/lsx124.github.io" # you code repository
